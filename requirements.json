@@ -1,0 +1,10 @@
+{
+  "region": "us-east-1",
+  "ami_id": "ami-0abcdef1234567890",
+  "instance_type": "t2.micro",
+  "key_name": "your-key-name",
+  "security_group_id": "sg-0123456789abcdef0",
+  "subnet_id": "subnet-0123456789abcdef0",
+  "tag_name": "Jenkins-EC2-Instance",
+  "instance_id": "i-0abcd1234efgh5678"  // used for start/stop/terminate
+}
