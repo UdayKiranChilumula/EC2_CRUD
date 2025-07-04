@@ -25,10 +25,10 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo 'Cleaning up workspace...'
-            cleanWs() // deletes all workspace files after build ends
-        }
-    }
+    // post {
+    //     always {
+    //         echo 'Cleaning up workspace...'
+    //         cleanWs() // deletes all workspace files after build ends
+    //     }
+    // }
 }
