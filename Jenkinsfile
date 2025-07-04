@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/your-username/aws-ec2-launcher.git', branch: 'main'
+                git url: 'https://github.com/UdayKiranChilumula/EC2_CRUD.git', branch: 'main'
             }
         }
 
@@ -22,6 +22,13 @@ pipeline {
                     sh 'python3 ec2_manager.py ${OPERATION}'
                 }
             }
+        }
+    }
+
+    post {
+        always {
+            echo 'Cleaning up workspace...'
+            cleanWs() // deletes all workspace files after build ends
         }
     }
 }
