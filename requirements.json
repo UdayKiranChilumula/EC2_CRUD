@@ -6,5 +6,5 @@
   "security_group_id": "sg-0123456789abcdef0",
   "subnet_id": "subnet-0123456789abcdef0",
   "tag_name": "Jenkins-EC2-Instance",
-  "instance_id": "i-02806ec15c2cd3ba6"  
+  "instance_id": "i-009a14c6b2b57fb06"  
 }
