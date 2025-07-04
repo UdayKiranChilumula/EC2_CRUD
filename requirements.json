@@ -1,10 +1,10 @@
 {
   "region": "us-east-1",
-  "ami_id": "ami-0abcdef1234567890",
+  "ami_id": "ami-0ef9192c5a09d53ce",
   "instance_type": "t2.micro",
-  "key_name": "your-key-name",
-  "security_group_id": "sg-0123456789abcdef0",
-  "subnet_id": "subnet-0123456789abcdef0",
+  "key_name": "ec2-key-pair",
+  "security_group_id": "sg-0f5c09897fe023605",
+  "subnet_id": "subnet-0452310d5e65a2969",
   "tag_name": "Jenkins-EC2-Instance",
   "instance_id": "i-009a14c6b2b57fb06"  
 }
